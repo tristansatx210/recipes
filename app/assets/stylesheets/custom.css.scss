@@ -42,8 +42,28 @@ $navbar-default-bg: #073B15;
 
 .footer {
   background-color: #073B15;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 h1, h2 {
   color: black;
+}
+
+.description {
+  margin-top: 0;
+}
+
+.well a {
+  color: #073B15;
+}
+
+.chef_info {
+  margin-top: 10px;
+}
+
+.colormatch a {
+  color: #073B15;
 }
