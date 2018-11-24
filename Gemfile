@@ -7,8 +7,9 @@ ruby '2.4.0'
 gem 'rails', '~> 5.2.1'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
-# Loofah Security vulnerability
-#gem "loofah", ">= 2.2.3"
+# Loofah and Rack Security vulnerability
+#gem "loofah", ">= 2.2.3" update applied
+gem "rack", ">= 2.0.6"
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
